@@ -1,7 +1,7 @@
 server:
   port: 8000
 
-message: Java
+message: Visitor Management
 
 management:
   endpoints:
