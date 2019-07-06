@@ -14,4 +14,4 @@ management:
   security:
     enabled: false
 
-message: Visitor Management
+message: Java
