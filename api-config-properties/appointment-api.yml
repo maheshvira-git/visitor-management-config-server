@@ -1,2 +1,15 @@
 server:
   port: 8000
+
+security:
+  basic:
+    enabled: false
+  ignored: /**
+
+spring:
+  security:
+    enabled: false
+
+management:
+  security:
+    enabled: false
