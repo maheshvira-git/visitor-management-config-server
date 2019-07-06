@@ -1,17 +1,10 @@
 server:
   port: 8000
 
-security:
-  basic:
-    enabled: false
-  ignored: /**
-
-spring:
-  security:
-    enabled: false
+message: Java
 
 management:
-  security:
-    enabled: false
-
-message: Java
+  endpoints:
+    web:
+      exposure:
+        include: *
